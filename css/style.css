@@ -101,9 +101,6 @@ blockquote:before {
 blockquote.caption-2:before {
 	background:none
 }
-.subline {
-	padding: 1em 0.5em 0;
-}
 .section-title-container {
 	text-align: center;
 	margin: 6em 0 2em;
@@ -165,7 +162,7 @@ blockquote.caption-2:before {
 .date-container .day-year {
 	font-size: 12em;
 }
-.date-container, .subline, .side-nav {
+.date-container, .side-nav {
 	color: #987c61;
 	font-family: 'Roboto Slab', serif;
 	font-weight:bold;
@@ -631,4 +628,15 @@ footer a {
 .our-story-description {
   padding: 4em;
   text-align: left;
+}
+
+.countdown-container {
+  display: inline-block;
+  margin: 10px 20px;
+  font-family: 'ostrich_sansbold','Helvetica Neue', Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.wedding-intro-container {
+  margin: 20px 0;
 }
