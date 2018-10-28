@@ -634,3 +634,28 @@ footer a {
 .our-story-columns {
   margin-bottom: 40px;
 }
+
+.accommodation-instructions {
+  text-align: left;
+}
+
+.hotel-container {
+  padding: 1em;
+}
+.hotel-container.col-1 {
+  border-bottom: none;
+  text-align: right;
+  padding-bottom: 0;
+}
+.hotel-container.col-2 {
+  border-left: 1px solid #e4e4e4;
+  text-align: left;
+}
+.hotel-container .hotel-name {
+  font-family: 'ostrich_sansbold','Helvetica Neue', Helvetica, sans-serif;
+  font-size: 1.6em;
+}
+
+.hotel-container .hotel-address-container {
+  margin: 20px 0;
+}
