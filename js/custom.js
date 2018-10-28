@@ -26,21 +26,6 @@ $(document).ready(function() {
 	smoothScroll();
 
 	/*-----------------------------------------------------------------------------------*/
-	/*	Backstretch
-	/*  Thanks to: http://srobbin.com/jquery-plugins/backstretch/
-	/*-----------------------------------------------------------------------------------*/
-
-	function backStrech() {
-		$("aside").backstretch([
-			"img/placeholder-1.jpg",
-			"img/placeholder-2.jpg",
-
-			], {duration: 5000, fade: 1000});
-	}
-
-	backStrech();
-
-	/*-----------------------------------------------------------------------------------*/
 	/*	Flexslider
 	/*  Thanks to: http://www.woothemes.com/flexslider/
 	/*-----------------------------------------------------------------------------------*/
