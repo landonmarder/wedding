@@ -40,7 +40,7 @@ body {
 	text-align: center;
 }
 a {
-	color:#de675f;
+	color:#551F37;
 	-webkit-transition: all 300ms ease-out;
 	-moz-transition: all 300ms ease-out;
 	transition: all 300ms ease-out;
@@ -61,7 +61,7 @@ h3,
 h4,
 h5,
 h6 {
-	color:#de675f;
+	color:#551F37;
 	font-family: 'ostrich_sansbold','Helvetica Neue', Helvetica, sans-serif;
 	font-weight: normal;
 	line-height: 1.5;
@@ -115,7 +115,7 @@ blockquote.caption-2:before {
 	width: 100%;
 }
 .section-title em {
-	color:#987c61;
+	color:#AF9467;
 	font-family: 'Playfair Display', serif;
 	font-size: 0.5em;
 }
@@ -161,7 +161,7 @@ blockquote.caption-2:before {
 	font-size: 5em;
 }
 .date-container, .side-nav {
-	color: #987c61;
+	color: #AF9467;
 	font-family: 'Roboto Slab', serif;
 	font-weight:bold;
 	text-transform: uppercase;
@@ -249,8 +249,8 @@ aside .postfix.button {
 	padding:1.43em 0;
 }
 .side-nav {
-	background-color:#ec6d65; /* fallback */
-	background: rgba(236, 109, 101, 0.9);
+	background-color:#551F37; /* fallback */
+	background: #551F37;
 	margin: 0;
 	padding:0;
 }
@@ -259,14 +259,14 @@ aside .postfix.button {
 }
 .side-nav li a {
 	color:#fff;
-	border-top: 1px solid #fb918a;
+	border-top: 1px solid white;
 	display: block;
 	padding: 1.25em;
 }
 .side-nav li.active a,
 .side-nav li a:hover {
 	background-color:#fff;
-	color:#de675f;
+	color:#551F37;
 }
 .side-nav-container {
 	margin: 0 auto;
@@ -281,8 +281,7 @@ aside .postfix.button {
 	margin:5em auto;
 }
 .logo a {
-	background-color: #de675f; /* fallback */
-	background-color: rgba( 222, 103, 95, 0.9);
+	background-color: #551F37;
 	color:#fff;
 	display: block;
 	font-size: 2.5em;
@@ -299,7 +298,7 @@ aside .postfix.button {
 /* Global Buttons */
 
 button, .button {
-	background-color: #de675f;
+	background-color: #551F37;
 	border-color: transparent;
 	-webkit-box-shadow: none;
 		    box-shadow: none;
@@ -365,7 +364,7 @@ input[type="time"]:focus,
 input[type="url"]:focus,
 textarea:focus {
 	background-color: #FFF;
-	border:1px solid #de675f;
+	border:1px solid #551F37;
 	-webkit-box-shadow: none;
 	   -moz-box-shadow: none;
 		    box-shadow: none;
