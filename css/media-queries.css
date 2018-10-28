@@ -101,15 +101,8 @@
 	.date-container.col-2 {
 		border-left: 1px solid #e4e4e4;
 	}
-	.date-container .day-date {
-		font-size: 1.250em;
-	}
-	.date-container .day-time,
-	.date-container .day-address {
+	.date-container .day-small-line {
 		font-size: 1.563em;
-	}
-	.date-container .day-meta {
-		font-size: 2.188em;
 	}
 
 	/*==== Footer ====*/

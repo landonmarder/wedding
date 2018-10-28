@@ -139,9 +139,7 @@ blockquote.caption-2:before {
 .date-container.col-1 {
 	border-bottom:1px solid #e4e4e4;
 }
-.date-container .day-date,
-.date-container .day-time,
-.date-container .day-address {
+.date-container .day-small-line {
 	font-size: 1em;
 }
 .date-container span {
@@ -155,26 +153,15 @@ blockquote.caption-2:before {
 	font-family: 'ostrich_sansbold','Helvetica Neue', Helvetica, sans-serif;
 	font-weight: normal;
 }
-.date-container .day-location {
+.date-container .day-big-line {
 	font-size: 3.1em;
 	margin: 10px 0 5px;
-}
-.date-container .day-year {
-	font-size: 12em;
 }
 .date-container, .side-nav {
 	color: #987c61;
 	font-family: 'Roboto Slab', serif;
 	font-weight:bold;
 	text-transform: uppercase;
-}
-.date-container .day-meta {
-	font-family: 'Playfair Display', serif;
-	font-style: italic;
-	text-transform: lowercase;
-	font-weight: normal;
-	font-size: 1.45em;
-	margin-top: 15px;
 }
 
 /*==== Callout ====*/
