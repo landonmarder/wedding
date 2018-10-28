@@ -103,7 +103,7 @@ blockquote.caption-2:before {
 }
 .section-title-container {
 	text-align: center;
-	margin: 6em 0 2em;
+	margin: 2em 0;
 }
 .section-title {
 	border-bottom: 4px double #c9b29b;
@@ -156,6 +156,9 @@ blockquote.caption-2:before {
 .date-container .day-big-line {
 	font-size: 3.1em;
 	margin: 10px 0 5px;
+}
+.date-container .day-big-line__left-side {
+	font-size: 5em;
 }
 .date-container, .side-nav {
 	color: #987c61;
@@ -626,4 +629,8 @@ footer a {
 
 .wedding-intro-container {
   margin: 10px 0;
+}
+
+.our-story-columns {
+  margin-bottom: 40px;
 }

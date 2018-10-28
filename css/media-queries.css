@@ -104,6 +104,9 @@
 	.date-container .day-small-line {
 		font-size: 1.563em;
 	}
+	.date-container .day-small-line__left-side {
+		font-size: 2em;
+	}
 
 	/*==== Footer ====*/
 
