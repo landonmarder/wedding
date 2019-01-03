@@ -40,7 +40,7 @@ $(document).ready(function() {
 
 	flexSlider();
 
-	$(".js-countdown").countdown("2019/11/9", function(event) {
+	$(".js-countdown").countdown("2019/11/9 18:30:00", function(event) {
 		$(this).find(".js-countdown-days").html(event.strftime("%D") + "<br>days");
 		$(this).find(".js-countdown-hours").html(event.strftime("%H") + "<br>hours");
 		$(this).find(".js-countdown-minutes").html(event.strftime("%M") + "<br>minutes");
