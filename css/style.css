@@ -659,7 +659,7 @@ footer a {
   margin: 20px 0;
 }
 
-.thing-to-do-link, .weekend-event-link {
+.thing-to-do-link, .weekend-event-link, .photo-album-link {
   color: #551F37;
   font-family: 'ostrich_sansbold','Helvetica Neue', Helvetica, sans-serif;
   font-size: 26px;
@@ -667,11 +667,12 @@ footer a {
   line-height: 1.5;
 }
 
-.thing-to-do-container, .weekend-event-container {
+.thing-to-do-container, .weekend-event-container, .photo-album-container {
   margin: 40px 0;
 }
 
-.thing-to-do-container img {
+.thing-to-do-container img,
+.photo-album-container img {
   padding: 50px;
   width: inherit;
 }
@@ -690,4 +691,8 @@ footer a {
 .link-to-dropdown-full-screen:focus {
   background-color: #551F37;
   color: #fff;
+}
+
+.clearing-thumbs .photo {
+  padding: 20px;
 }
