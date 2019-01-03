@@ -675,3 +675,19 @@ footer a {
   padding: 50px;
   width: inherit;
 }
+
+.dropdown-full-screen {
+  background: #551F37;
+  border-left: 0px;
+  border-right: 0px;
+  font-size: 14px;
+  margin: 0;
+  max-width: 210px;
+  padding: 0;
+  width: 100%;
+}
+
+.link-to-dropdown-full-screen:focus {
+  background-color: #551F37;
+  color: #fff;
+}

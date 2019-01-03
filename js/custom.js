@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 	function smoothScroll(){
 		$(".nav").onePageNav({
-			filter: ':not(.external)',
+			filter: ':not(.js-no-scroll)',
 			scrollSpeed: 1500,
 		});
 
@@ -44,6 +44,10 @@ $(document).ready(function() {
 		$(this).find(".js-countdown-days").html(event.strftime("%D") + "<br>days");
 		$(this).find(".js-countdown-hours").html(event.strftime("%H") + "<br>hours");
 		$(this).find(".js-countdown-minutes").html(event.strftime("%M") + "<br>minutes");
+	});
+
+	$(".link-to-dropdown-full-screen").on("click", function(e) {
+		$(".active").removeClass("active");
 	});
 });
 
