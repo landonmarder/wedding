@@ -657,6 +657,10 @@ footer a {
   line-height: 1.5;
 }
 
+.thing-to-do-link, .photo-album-link {
+  text-decoration: underline;
+}
+
 .thing-to-do-container, .weekend-event-container, .photo-album-container {
   margin: 40px 0;
 }
