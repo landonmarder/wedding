@@ -516,16 +516,6 @@ label.error {
 /*	5.	Image Gallery
 /*-----------------------------------------------------------------------------------*/
 
-.carousel li {
-	position: relative;
-	margin: 0;
-	max-width:100%;
-	width: 100%;
-}
-.carousel img {
-	max-width: 100%;
-	height: auto;
-}
 .overlay-label {
 	background-color: rgba( 222, 103, 95, 0.7);
 	display: inline;
@@ -693,6 +683,10 @@ footer a {
   color: #fff;
 }
 
-.clearing-thumbs .photo {
-  padding: 20px;
+[data-clearing] li {
+  margin-right: 0;
+}
+
+[data-clearing] li img {
+  padding: 10%;
 }
