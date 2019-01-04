@@ -516,16 +516,6 @@ label.error {
 /*	5.	Image Gallery
 /*-----------------------------------------------------------------------------------*/
 
-.carousel li {
-	position: relative;
-	margin: 0;
-	max-width:100%;
-	width: 100%;
-}
-.carousel img {
-	max-width: 100%;
-	height: auto;
-}
 .overlay-label {
 	background-color: rgba( 222, 103, 95, 0.7);
 	display: inline;
@@ -659,7 +649,7 @@ footer a {
   margin: 20px 0;
 }
 
-.thing-to-do-link, .weekend-event-link {
+.thing-to-do-link, .weekend-event-link, .photo-album-link {
   color: #551F37;
   font-family: 'ostrich_sansbold','Helvetica Neue', Helvetica, sans-serif;
   font-size: 26px;
@@ -667,11 +657,36 @@ footer a {
   line-height: 1.5;
 }
 
-.thing-to-do-container, .weekend-event-container {
+.thing-to-do-container, .weekend-event-container, .photo-album-container {
   margin: 40px 0;
 }
 
-.thing-to-do-container img {
+.thing-to-do-container img,
+.photo-album-container img {
   padding: 50px;
   width: inherit;
+}
+
+.dropdown-full-screen {
+  background: #551F37;
+  border-left: 0px;
+  border-right: 0px;
+  font-size: 14px;
+  margin: 0;
+  max-width: 210px;
+  padding: 0;
+  width: 100%;
+}
+
+.link-to-dropdown-full-screen:focus {
+  background-color: #551F37;
+  color: #fff;
+}
+
+[data-clearing] li {
+  margin-right: 0;
+}
+
+[data-clearing] li img {
+  padding: 10%;
 }

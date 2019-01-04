@@ -45,15 +45,13 @@
 	.large-9 {
 		width:100%;
 	}
+
+	.clearing-thumbs .large-3 {
+		width: 25%;
+	}
+
 	.row .large-offset-1 {
 		margin-left: 0;
-	}
-	.clearing-assembled .clearing-container .carousel {
-		height:185px;
-	}
-	.clearing-assembled .clearing-container .carousel > ul li {
-		margin-right: 5px;
-		width: 185px;
 	}
 	.section-title {
 		font-size: 6em;
@@ -73,12 +71,6 @@
 		text-align: center;
 		padding: 4em;
 		width: 50%;
-	}
-
-	/*==== Carousel +  Flexslider ====*/
-
-	.carousel li {
-		width: 25%;
 	}
 
 	/*==== Form ====*/
@@ -136,7 +128,6 @@
 	.top-bar-section ul li {
 		border: none;
 	}
-
 }
 
 /*-----------------------------------------------------------------------------------*/
