@@ -694,3 +694,26 @@ footer a {
 [data-clearing] li img {
   padding: 10%;
 }
+
+.registry-img {
+  max-width: 350px !important;
+}
+
+.photo-dropdown-menu {
+  margin-left: 211px !important;
+  margin-top: -58px !important;
+}
+
+.f-dropdown {
+  border: none;
+}
+
+.f-dropdown:before {
+  border-color: transparent #fff transparent transparent;
+  top: 1px;
+  left: -13px;
+}
+
+.f-dropdown:after {
+  border: none;
+}

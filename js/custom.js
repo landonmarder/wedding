@@ -13,6 +13,11 @@ $(document).ready(function() {
 		// Scrolls to section
 		$(".js-scroll").on("click", function(e) {
 			scrollToSection = $(e.target).attr("href");
+			photosOpened = $(".js-photo-dropdown-menu").hasClass("open");
+
+			if (photosOpened) {
+				Foundation.libs.dropdown.close($('.js-photo-dropdown-menu'));
+			}
 
 			$('html, body').animate({
 				scrollTop: $(scrollToSection).offset().top
