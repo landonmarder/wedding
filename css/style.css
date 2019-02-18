@@ -694,3 +694,7 @@ footer a {
 [data-clearing] li img {
   padding: 10%;
 }
+
+.registry-img {
+  max-width: 350px !important;
+}
